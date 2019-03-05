@@ -1,0 +1,51 @@
+/* Change the look of Labels */
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+/* Center the form  */
+form {
+  margin: 0 auto;
+  width: 450px;
+}
+
+/* textbox and textarea styles */
+input,
+textarea {
+  width: 430px;
+  height: 25px;
+  background: #e5fcdf;
+  padding: 10px;
+  margin-top: 3px;
+  color: #4a2a2b;
+  border-radius: 7px;
+  border: 1px solid green;
+}
+
+/* height for textarea */
+textarea {
+  height: 213px;
+}
+
+/* Border style on focus */
+input:focus,
+textarea:focus {
+  border: 1px solid #97d6eb;
+}
+
+/* submit button styles */
+#submit {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #363e3f;
+}
+
+/* Change button looks on hover */
+#submit:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Contact Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div style="background-color:#F0F7F6; width:40%; margin:40px auto;">
+      <h2
+        align="center"
+        style="  background: #DCF5FD; width:99%; height:30px;
+color: #807A7A"
+      >
+        CONTACT FORM
+      </h2>
+      <form method="post" action="contact.php">
+        <label>Name</label> <input name="name" placeholder="Enter Your name" />
+
+        <label>Email</label>
+        <input name="email" type="email" placeholder="Enter your email" />
+
+        <label>Message</label>
+        <textarea name="message" placeholder="Type Your message"></textarea>
+
+        <input id="submit" name="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
